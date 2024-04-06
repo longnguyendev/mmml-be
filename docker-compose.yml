@@ -3,7 +3,7 @@ services:
   strapi:
     container_name: strapi
     build: .
-    image: strapi-teddy
+    image: longnguyendev214/mmml-be
     restart: always
     env_file: .env
     environment:
